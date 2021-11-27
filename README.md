@@ -1,4 +1,4 @@
-START/STOP -> 12. Instalação e configuração 20:00
+START/STOP -> 14. Criando APIViews para o método HTTP GET 3:23
 --------------------------------------------------
 
 mkdir nome_da_pasta
@@ -43,3 +43,11 @@ Create Api
 pip install djangorestframework markdown django-filter
 
 pip freeze > requirements.txt
+
+Correções
+---------------------------------------------
+Import "rest_framework" could not be resolved. But I have installed djangorestframework, I don't know what is going wrong
+
+Solução:
+Se você estiver usando VSCode, Ctrl + Shift + P -> Digite e selecione 'Python: Selecione Interpretador' e entre no ambiente virtual do seu projeto selecione
+python em scripts
