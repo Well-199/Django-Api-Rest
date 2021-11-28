@@ -1,6 +1,11 @@
 from django.db import models
 
 class Base(models.Model):
+    
+    # O Model Base traz colunas que vao se existir em outras tabelas do banco 
+    # pra não reptir o codigo o Model Base é passado como heranca ou parametro
+    # em outros models/tabelas que vao ter as mesmas informaçoes da Base
+    
     criacao = models.DateTimeField(auto_now_add=True)
     atualizacao = models.DateTimeField(auto_now=True)
     ativo = models.BooleanField(default=True)

@@ -1,4 +1,4 @@
-START/STOP -> 14. Criando APIViews para o método HTTP GET 3:23
+START/STOP -> 15. Criando APIViews para o método HTTP POST
 --------------------------------------------------
 
 mkdir nome_da_pasta
