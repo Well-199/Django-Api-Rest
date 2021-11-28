@@ -1,4 +1,4 @@
-START/STOP -> 15. Criando APIViews para o método HTTP POST
+START/STOP -> 18. Criando um CRUD genérico com Django REST Framework 10:00
 --------------------------------------------------
 
 mkdir nome_da_pasta
